@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    color: beige;
+    background-color: mediumpurple;
+}
+ol{
+    background-color: aquamarine;
+    color: black;
+    margin-right: 100px;
+    padding-left: 100px;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+.r{
+    text-decoration: underline violet 5px;
+    border-top:50px double teal ;
+    border-radius: 40px;
+}
+footer{
+    background-color: darkgray;
+    color: black;
+    margin-top: 5px;
+    border-bottom: 50px double teal;
+    border-radius: 40px;
+    padding: 10px;
+}
+.u{
+    background-color: darkorchid;
+    margin: 0px;
+    padding: 3px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 5px;
+}
