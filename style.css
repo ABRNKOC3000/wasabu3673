@@ -6,8 +6,7 @@ body {
 ol{
     background-color: aquamarine;
     color: black;
-    margin-right: 100px;
-    padding-left: 100px;
+    margin-right: 500px;
 }
 a{
     text-decoration-line: none;
@@ -15,15 +14,13 @@ a{
 }
 .r{
     text-decoration: underline violet 5px;
-    border-top:50px double teal ;
     border-radius: 40px;
 }
 footer{
     background-color: darkgray;
     color: black;
     margin-top: 5px;
-    border-bottom: 50px double teal;
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 10px;
 }
 .u{
@@ -33,4 +30,17 @@ footer{
     border-left: 10px solid black;
     border-right: 10px solid black;
     border-radius: 5px;
+}
+.i{
+    display: flex;
+    justify-content: end;
+}
+img{
+    border: 10px solid #4D2982;
+    display: flex;
+    justify-content: space-between;
+}
+.dq{
+    width: 130px;
+    display: flex;
 }
