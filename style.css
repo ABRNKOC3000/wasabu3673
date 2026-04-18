@@ -17,7 +17,6 @@ a{
     border-radius: 40px;
 }
 footer{
-    color:darkgray
     color: black;
     margin-top: 5px;
     border-radius: 20px;
@@ -43,4 +42,23 @@ img{
 .dq{
     width: 130px;
     display: flex;
+}
+.tr:visited{
+    color: #956BD6;
+}
+.tr:hover{
+    color: #8F96B6;
+}
+nav{
+    background-color:#8F96B6; 
+    border-top: 3px solid #4E5E81;
+    border-bottom:3px solid #4E5E81;
+    display: flex;
+    justify-content: space-between;
+}
+nav a:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 19px;    
 }
