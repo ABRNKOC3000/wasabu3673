@@ -49,7 +49,7 @@ img{
     color: #8F96B6;
 }
 .tr:hover{
-    color: #9B6DB8;
+    color: mediumslateblue;
 }
 nav{
     background-color:#8F96B6; 
@@ -64,7 +64,27 @@ nav a:first-child{
     margin-left: 15px;
     font-size: 19px;    
 }
-img:hover{
-    border: 20px solid #4D2982;
-    transition:border 1s linear;
+img body:hover{
+    border-radius: 15px;
+    border-color:blue;
+    transition:all 1s linear;
+    transform: translateY(50px) translateX(-200px);
 }
+footer a{
+    font-size:15px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: violet;
+}
+footer a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    transition: all 79ms linear;
+}
+footer{
+    background-image: linear-gradient(black,blueviolet);
+}
+
+
+
