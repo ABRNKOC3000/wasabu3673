@@ -23,12 +23,13 @@ footer{
     padding: 10px;
 }
 .u{
-    background-color: darkorchid;
     margin: 0px;
     padding: 3px;
     border-left: 10px solid black;
     border-right: 10px solid black;
     border-radius: 5px;
+    background-image: linear-gradient(to right,violet,mediumpurple,#4D2982);
+    box-shadow: 5px 0 25px 10px #4D2982;
 }
 .i{
     display: flex;
@@ -38,16 +39,17 @@ img{
     border: 10px solid #4D2982;
     display: flex;
     justify-content: space-between;
+    
 }
 .dq{
     width: 130px;
     display: flex;
 }
 .tr:visited{
-    color: #956BD6;
+    color: #8F96B6;
 }
 .tr:hover{
-    color: #8F96B6;
+    color: #9B6DB8;
 }
 nav{
     background-color:#8F96B6; 
@@ -61,4 +63,8 @@ nav a:first-child{
     margin-bottom: 20px;
     margin-left: 15px;
     font-size: 19px;    
+}
+img:hover{
+    border: 20px solid #4D2982;
+    transition:border 1s linear;
 }
