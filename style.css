@@ -7,6 +7,8 @@ ol{
     background-color: aquamarine;
     color: black;
     margin-right: 500px;
+    display: flex;
+    justify-content: center;
 }
 a{
     text-decoration-line: none;
@@ -64,7 +66,7 @@ nav a:first-child{
     margin-left: 15px;
     font-size: 19px;    
 }
-img body:hover{
+img:hover{
     border-radius: 15px;
     border-color:blue;
     transition:all 1s linear;
@@ -85,6 +87,10 @@ footer a:hover{
 footer{
     background-image: linear-gradient(black,blueviolet);
 }
-
-
-
+.iframe{
+    text-align: end;
+    border: 15px solid #4D2982;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
